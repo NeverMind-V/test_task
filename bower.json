@@ -1,0 +1,15 @@
+{
+  "name": "gulp_template",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "nevermind_v"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

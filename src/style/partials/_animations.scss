@@ -1,0 +1,39 @@
+@keyframes slideDown {
+    0% {
+        opacity:0;
+        top:-100%;
+    }
+    80% {
+        opacity:1;
+        top:60%;
+    }
+    100% {
+        opacity:1;
+        top:50%;
+    }
+}
+@keyframes zoomOut {
+    0% {
+        opacity:1;
+        top:50%;
+        transform: translate(-50%,-50%) scale(1);
+    }
+    10% {
+        opacity:1;
+        top:50%;
+        transform: translate(-50%,-50%) scale(1.2);
+
+    }
+    100% {
+        opacity:0;
+        top:-50%;
+        transform: translate(-50%,-50%) scale(0);
+    }
+}
+
+.slideDown {
+    animation:slideDown 0.6s ease-in-out forwards;
+}
+.zoomOut {
+    animation:zoomOut 0.6s ease-in-out forwards;
+}
